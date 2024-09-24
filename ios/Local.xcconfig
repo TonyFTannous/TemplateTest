@@ -1,0 +1,12 @@
+//
+//  local.xcconfig
+//  IDPMobile
+//
+//  Created by AccuV-Team on 5/2/24.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+APP_NAME = PULSE (Local)
+APP_BUNDLE_NAME = com.idpmobile
+APP_SCHEMA = local
