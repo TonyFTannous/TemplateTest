@@ -1,7 +1,6 @@
 import React, {useCallback, useEffect, useRef, useState} from 'react';
 import {
   View,
-  Image,
   Platform,
   Keyboard,
   ScrollView,
@@ -14,7 +13,6 @@ import Title from '@/components/Title';
 import Text from '@/components/UI/Text';
 import OverLay from '@/components/OverLay';
 import Button from '@/components/UI/Button';
-import logo from '@/assets/images/logo.png';
 import Input, {TRef as inputTref} from '@/components/UI/Input';
 import Switch, {TRef as switchTref} from '@/components/UI/Switch';
 
@@ -176,11 +174,6 @@ const Login: React.FC<TProps> = () => {
           keyboardShouldPersistTaps="handled"
           showsVerticalScrollIndicator={false}
           contentContainerStyle={style.contentContainer}>
-          <View style={style.logoContainer}>
-            <View>
-              <Image style={style.logo} source={logo} />
-            </View>
-          </View>
           <View>
             <View style={gbStyle.marginBottom24}>
               <Title type={24} title={'Welcome Back'} />
